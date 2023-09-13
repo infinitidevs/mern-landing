@@ -1,9 +1,11 @@
-import "./Footer.css";
+import './Footer.css';
 
 const Footer = () => {
   return (
     <footer>
-      <p>Powered by AH</p>
+      <section>
+        <p className="ah-footer__text">Powered by Infiniti Devs</p>
+      </section>
     </footer>
   );
 };
