@@ -1,14 +1,12 @@
 import React from 'react';
 
-import { Btn, BtnWrapper, Menu, Toggle } from './styles';
+import BurgerMenu from '../BurgerMenu/BurgerMenu';
+import { Menu } from './styles';
 
 const Navbar = () => {
   return (
     <>
-      <Toggle />
-      <BtnWrapper>
-        <Btn></Btn>
-      </BtnWrapper>
+      <BurgerMenu />
       <Menu>
         <ul>
           <li>

@@ -1,12 +1,11 @@
-import './Footer.css';
+import { FooterStyled } from '../ui/FooterStyled';
+import { Text } from './styles';
 
 const Footer = () => {
   return (
-    <footer>
-      <section>
-        <p className="ah-footer__text">Powered by Infiniti Devs</p>
-      </section>
-    </footer>
+    <FooterStyled>
+      <Text>Powered by Infiniti Devs</Text>
+    </FooterStyled>
   );
 };
 
