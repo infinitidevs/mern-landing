@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
   --ah-color-highlight: #a0fac5;
   --ah-color-main: #02152B;
   --ah-color-background: #070612;
+  --ah-color-background-secondary: #070612fc;
   
   font-family: 'Mulish', sans-serif;
   font-family: 'Philosopher', sans-serif;
@@ -99,9 +100,7 @@ select {
 }
 
 body {
-  /* background-color: var(--ah-color-main);
-  background-color: rgba(7, 6, 18, 0.95); */
-  background-color: var(--ah-color-background);
+  background-color: var(--ah-color-background-secondary);
   color: var(--ah-color-light);
 }
 

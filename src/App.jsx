@@ -1,13 +1,12 @@
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-import Form from './components/Form/Form';
-import Goodwill from './components/Goodwill/Goodwill';
-import Header from './components/Header/Header';
-import Location from './components/Location/Location';
-import OurServices from './components/OurServices/OurServices';
-import Team from './components/Team/Team';
-import { MainStyled } from './components/ui/MainStyled';
+import { MainStyled } from './components/Atoms/MainStyled';
+import About from './components/Templates/About/About';
+import Contact from './components/Templates/Contact/Contact';
+import Footer from './components/Templates/Footer/Footer';
+import Form from './components/Templates/Form/Form';
+import Goodwill from './components/Templates/Goodwill/Goodwill';
+import Header from './components/Templates/Header/Header';
+import OurServices from './components/Templates/OurServices/OurServices';
+import Team from './components/Templates/Team/Team';
 
 const App = () => {
   return (
@@ -19,7 +18,6 @@ const App = () => {
         <OurServices />
         <Goodwill />
         <Contact />
-        <Location />
         <Form />
       </MainStyled>
       <Footer />
