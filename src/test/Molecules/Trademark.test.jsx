@@ -10,10 +10,7 @@ import Trademark from '../../components/Molecules/Trademark/Trademark';
 describe('Footer', () => {
   test('should render Trademark component with custom Logo src and alt values', () => {
     render(<Trademark />);
-    expect(screen.getByAltText('Logo')).toHaveAttribute(
-      'src',
-      '/assets/header/logo.png',
-    );
+    expect(screen.getByAltText('Logo')).toHaveAttribute('src', '/assets/header/logo.png');
   });
   test('should render the Trademark component with a Title', () => {
     render(<Trademark />);

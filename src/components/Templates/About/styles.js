@@ -27,7 +27,8 @@ export const Background = styled.article`
   ${mediaQueries.mobileL} {
     left: 0;
     background-position: 75% 50%;
-    box-shadow: 0px 900px 10px 100px rgba(0, 0, 0, 0.25) inset,
+    box-shadow:
+      0px 900px 10px 100px rgba(0, 0, 0, 0.25) inset,
       0px 100px 100px 10px rgba(7, 6, 18, 0.5) inset;
   }
 `;
