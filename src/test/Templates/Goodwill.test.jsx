@@ -11,7 +11,7 @@ import { logosItems } from '../../data/goodwill';
 describe('Goodwill', () => {
   test('should apply a background gradient to the title', () => {
     render(<Goodwill />);
-    const title = screen.getByText('Ellos confian en Nosotros');
+    const title = screen.getByText('Ellos confían en nosotros');
     expect(title).toHaveStyle(`
           background: conic-gradient(
             from 180deg at 23% 50%,

@@ -11,7 +11,7 @@ import { details } from '../../data/contact';
 describe('Contact', () => {
   test('should display the title with a gradient background', () => {
     render(<Contact />);
-    const title = screen.getByText('Visitanos');
+    const title = screen.getByText('Visítanos');
     expect(title).toBeInTheDocument();
     expect(title).toHaveStyle(
       'background: conic-gradient(from 180deg at 50% 50%, rgb(135, 231, 173) 19.64deg, rgb(31, 86, 95) 183.37deg)',

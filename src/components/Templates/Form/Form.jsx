@@ -45,7 +45,7 @@ const Form = () => {
         >
           {formState.isSubmitSuccessful
             ? 'Hemos recibido tu consulta con exito!'
-            : 'Escribenos tu consulta'}
+            : 'Escríbenos tu consulta'}
         </Title>
         <FormLayout onSubmit={handleSubmit(onSubmit)}>
           <InputWrapper>

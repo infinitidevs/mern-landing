@@ -27,7 +27,7 @@ const Contact = () => {
             $whiteSpace="nowrap"
             $fontSizeMobileL="36px"
           >
-            Visitanos
+            Visítanos
           </Title>
         </section>
         <ContentWrapper>

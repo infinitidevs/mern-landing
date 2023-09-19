@@ -26,7 +26,7 @@ const Goodwill = () => {
           $fontSizeMobileL="36px"
           $textWrapMobileL="wrap"
         >
-          Ellos confian en Nosotros
+          Ellos confían en nosotros
         </Title>
         <Wrapper data-testid="wrapper">
           {logosItems.map(({ logo, textStyles, text, display }) => (
