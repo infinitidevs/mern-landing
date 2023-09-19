@@ -21,7 +21,7 @@ React | Unit Testing | Forms | Styled Components | Atomic Design | Vite | Vercel
 - Unit Testing: React Testing Library was employed to create robust unit tests that ensure the proper functioning of components in various scenarios.
 
 - Markup & meta SEO.
- 
+
 ## Project setup
 
 ```
